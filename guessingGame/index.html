@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a1d6747622.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Guessing Game</title>
+</head>
+<body>
+    <nav>
+        <h1 class="title">¿Verdadero o Falso?</h1>
+    </nav>
+    <div class="info-container">
+        <p class="info-page">Esta es una página acerca del famosísimo juego "Verdadero o Falso".<br>
+            Tendrás que leer las reglas antes de empezar.</p>
+        <button class="rules-button">Reglas</button>
+        <div class="rule-box">
+            <h4><i class="fa-solid fa-circle-question"></i>¿Cómo se juega?</h4>
+            <p>Es sencillo, tienes que leer el contenido de cada caja y analizarlo, después pulsar los botones cierto o falso dependiendo de la respuesta que hayas formulado.</p>
+
+            <h4><i class="fa-solid fa-face-frown"></i>¿Qué sucederá si me equivoco?</h4>
+            <p>Saldrá una pequeña sección que te dirá cual era la respuesta correcta y te explicará, y abrá un botón para reinicar las preguntas ya que si el jugador pierde no podrá seguir con las preguntas, obligando al jugador a volver a iniciar. Lo bueno es que son las mismas preguntas... Por ahora, en el futuro tenemos planeado agregar más preguntas y con un sistema de cambio al azar para que sean preguntas distintas cada que el jugador se equivoque.</p>
+
+            <h4><i class="fa-solid fa-gears"></i>Acerca de hacer trampa</h4>
+            <p>Tal vez el jugador tenga planeado copiar la pregunta y buscar en internet, así que nuestro sistema no permite copiar las preguntas... Nuestra debilidad es que sepas usar las herramientas de desarrollador jajaja.</p>
+
+            <button class="close-button">Cerrar</button>
+        </div>
+    </div>
+    <main>
+
+        <section class="riddle riddle1">
+            <div class="icon-box">
+                <i class="fa-solid fa-circle-check itru"></i>
+                <h2 class="text-true">Verdadero</h2>
+                <i class="fa-solid fa-circle-xmark ifal"></i>
+                <h2 class="text-false">Falso</h2>
+                <i class="fa-solid fa-circle-question"></i>
+                <h2>¿Verdadero o Falso?</h2>
+            </div>
+            <div class="question-container">
+                <p class="p">Seis es igual a cuatro cinco igual a cinco y uno igual a tres.</p>
+                <h3 class="question">¿Es correcta la frase?</h3>
+            </div>
+            <button class="true-button true-button1">Verdadero</button>
+            <button class="false-button false-button1">Falso</button>
+            <div class="answer-box1 answer-box">
+                <h2 class="correct-answer">Respuesta correcta</h2>
+                <h3><b class="true-answer">Verdadero</b></h3>
+                <p class="response">Habla del número de letras que tiene cada número.</p>
+            </div>
+        </section>
+
+        <section class="riddle riddle2">
+            <div class="icon-box">
+                <i class="fa-solid fa-circle-check itru"></i>
+                <h2 class="text-true">Verdadero</h2>
+                <i class="fa-solid fa-circle-xmark ifal"></i>
+                <h2 class="text-false">Falso</h2>
+                <i class="fa-solid fa-circle-question"></i>
+                <h2>¿Verdadero o Falso?</h2>
+            </div>
+            <div class="question-container">
+                <p class="p">Si a veinte le sumamos uno es diecinueve.</p>
+                <h3 class="question">¿Es correcta la frase?</h3>
+            </div>
+            <button class="true-button true-button2">Verdadero</button>
+            <button class="false-button false-button2">Falso</button>
+            <div class="answer-box2 answer-box">
+                <h2 class="correct-answer">Respuesta correcta</h2>
+                <h3><b class="true-answer">Verdadero</b></h3>
+                <p class="response">En números romanos. A XX le sumamos I = XIX</p>
+            </div>
+        </section>
+
+        <section class="riddle riddle3">
+            <div class="icon-box">
+                <i class="fa-solid fa-circle-check itru"></i>
+                <h2 class="text-true">Verdadero</h2>
+                <i class="fa-solid fa-circle-xmark ifal"></i>
+                <h2 class="text-false">Falso</h2>
+                <i class="fa-solid fa-circle-question"></i>
+                <h2>¿Verdadero o Falso?</h2>
+            </div>
+            <div class="question-container">
+                <p class="p">La mitad de dos más dos son tres.</p>
+                <h3 class="question">¿Es correcta la frase?</h3>
+            </div>
+            <button class="true-button true-button3">Verdadero</button>
+            <button class="false-button false-button3">Falso</button>
+            <div class="answer-box3 answer-box">
+                <h2 class="correct-answer">Respuesta correcta</h2>
+                <h3><b class="true-answer">Verdadero</b></h3>
+                <p class="response">La mitad de dos es 1 más 2 igual a tres.</p>
+            </div>
+        </section>
+
+        <section class="riddle riddle4">
+            <div class="icon-box">
+                <i class="fa-solid fa-circle-check itru"></i>
+                <h2 class="text-true">Verdadero</h2>
+                <i class="fa-solid fa-circle-xmark ifal"></i>
+                <h2 class="text-false">Falso</h2>
+                <i class="fa-solid fa-circle-question"></i>
+                <h2>¿Verdadero o Falso?</h2>
+            </div>
+            <div class="question-container">
+                <p class="p">1 - 2 - 4 - 5 - 8 - 1000 - 1001.</p>
+                <h3 class="question">¿Es correcta esta secuencia?</h3>
+            </div>
+            <button class="true-button true-button4">Verdadero</button>
+            <button class="false-button false-button4">Falso</button>
+            <div class="answer-box4 answer-box">
+                <h2 class="correct-answer">Respuesta correcta</h2>
+                <h3><b class="true-answer">Verdadero</b></h3>
+                <p class="response">Son números consecutivos que no tienen ninguna E.</p>
+            </div>
+        </section>
+
+        <section class="riddle riddle5">
+            <div class="icon-box">
+                <i class="fa-solid fa-circle-check itru"></i>
+                <h2 class="text-true">Verdadero</h2>
+                <i class="fa-solid fa-circle-xmark ifal"></i>
+                <h2 class="text-false">Falso</h2>
+                <i class="fa-solid fa-circle-question"></i>
+                <h2>¿Verdadero o Falso?</h2>
+            </div>
+            <div class="question-container">
+                <p class="p">Una persona llama a la puerta de un local y una voz desde el interior dice: "8", a lo que la otra persona contesta "4" y le dejan pasar.   <br>
+                Llega otro y le dicen "14", a lo que contesta "7" y también le dejan pasar.<br>
+                Al tercero le dicen "0". ¿Es "0" la contraseña para entrar?</p>
+                <h3 class="question">¿Cuál es la contraseña?</h3>
+            </div>
+            <button class="true-button true-button5">Verdadero</button>
+            <button class="false-button false-button5">Falso</button>
+            <div class="answer-box5 answer-box">
+                <h2 class="correct-answer">Respuesta correcta</h2>
+                <h3><b class="false-answer">Falso</b></h3>
+                <p class="response">La respuesta es 4. Se trata del número de letras del número dicho.</p>
+            </div>
+        </section>
+
+        <section class="riddle riddle6">
+            <div class="icon-box">
+                <i class="fa-solid fa-circle-check itru"></i>
+                <h2 class="text-true">Verdadero</h2>
+                <i class="fa-solid fa-circle-xmark ifal"></i>
+                <h2 class="text-false">Falso</h2>
+                <i class="fa-solid fa-circle-question"></i>
+                <h2>¿Verdadero o Falso?</h2>
+            </div>
+            <div class="question-container">
+                <p class="p">El francés es el idioma oficial de Andorra.</p>
+                <h3 class="question">¿Verdadero o Falso?</h3>
+            </div>
+            <button class="true-button true-button6">Verdadero</button>
+            <button class="false-button false-button6">Falso</button>
+            <div class="answer-box6 answer-box">
+                <h2 class="correct-answer">Respuesta correcta</h2>
+                <h3><b class="false-answer">Falso</b></h3>
+                <p class="response">El idioma oficial de Andorra es el catalán.</p>
+            </div>
+        </section>
+        
+        <section class="riddle riddle7">
+            <div class="icon-box">
+                <i class="fa-solid fa-circle-check itru"></i>
+                <h2 class="text-true">Verdadero</h2>
+                <i class="fa-solid fa-circle-xmark ifal"></i>
+                <h2 class="text-false">Falso</h2>
+                <i class="fa-solid fa-circle-question"></i>
+                <h2>¿Verdadero o Falso?</h2>
+            </div>
+            <div class="question-container">
+                <p class="p">Amo esta frase.<br>
+                Albert Einstein dijo que la cuarta guerra mundial   se lucharía con piedras.</p>
+                <h3 class="question">¿Es correcto?</h3>
+            </div>
+            <button class="true-button true-button7">Verdadero</button>
+            <button class="false-button false-button7">Falso</button>
+            <div class="answer-box7 answer-box">
+                <h2 class="correct-answer">Respuesta correcta</h2>
+                <h3><b class="true-answer">Verdadero</b></h3>
+                <p class="response">Dijo no sé con qué armas se combatirá la Tercera Guerra Mundial, pero la Cuarta será con palos y piedras, en referencia a la aniquilación de la humanidad ya que cada vez se crean armas que son cada vez más un peligro para la humanidad.</p>
+            </div>
+        </section>
+
+        <section class="riddle riddle8">
+            <div class="icon-box">
+                <i class="fa-solid fa-circle-check itru"></i>
+                <h2 class="text-true">Verdadero</h2>
+                <i class="fa-solid fa-circle-xmark ifal"></i>
+                <h2 class="text-false">Falso</h2>
+                <i class="fa-solid fa-circle-question"></i>
+                <h2>¿Verdadero o Falso?</h2>
+            </div>
+            <div class="question-container">
+                <p class="p">El nitrógeno es el elemento químico más abundante en la atmósfera.</p>
+                <h3 class="question">¿Es correcto?</h3>
+            </div>
+            <button class="true-button true-button8">Verdadero</button>
+            <button class="false-button false-button8">Falso</button>
+            <div class="answer-box8 answer-box">
+                <h2 class="correct-answer">Respuesta correcta</h2>
+                <h3><b class="true-answer">Verdadero</b></h3>
+                <p class="response">Es el elemento más abundante en el aire que respiramos, puesto que es el 78% de la atmósfera terrestre.</p>
+            </div>
+        </section>
+
+        <section class="riddle riddle9">
+            <div class="icon-box">
+                <i class="fa-solid fa-circle-check itru"></i>
+                <h2 class="text-true">Verdadero</h2>
+                <i class="fa-solid fa-circle-xmark ifal"></i>
+                <h2 class="text-false">Falso</h2>
+                <i class="fa-solid fa-circle-question"></i>
+                <h2>¿Verdadero o Falso?</h2>
+            </div>
+            <div class="question-container">
+                <p class="p">Esta es fácil.<br>
+                En un teclado, al lado de la letra Ñ, se encuentra la letra K.</p>
+                <h3 class="question">¿Es cierto?</h3>
+            </div>
+            <button class="true-button true-button9">Verdadero</button>
+            <button class="false-button false-button9">Falso</button>
+            <div class="answer-box9 answer-box">
+                <h2 class="correct-answer">Respuesta correcta</h2>
+                <h3><b class="false-answer">Falso</b></h3>
+                <p class="response">Se encuentra la letra L.</p>
+            </div>
+        </section>
+
+        <section class="riddle riddle10">
+            <div class="icon-box">
+                <i class="fa-solid fa-circle-check itru"></i>
+                <h2 class="text-true">Verdadero</h2>
+                <i class="fa-solid fa-circle-xmark ifal"></i>
+                <h2 class="text-false">Falso</h2>
+                <i class="fa-solid fa-circle-question"></i>
+                <h2>¿Verdadero o Falso?</h2>
+            </div>
+            <div class="question-container">
+                <p class="p">El aguacate es un vegetal</p>
+                <h3 class="question">¿Es cierto este controversial  debate?</h3>
+            </div>
+            <button class="true-button true-button10">Verdadero</button>
+            <button class="false-button false-button10">Falso</button>
+            <div class="answer-box10 answer-box">
+                <h2 class="correct-answer0">Respuesta correcta</h2>
+                <h3><b class="false-answer">Falso</b></h3>
+                <p class="response">Es un fruto que proviene del árbol del aguacate</p>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <h6>Copyright 2022</h6>
+    </footer>
+    <script src="script.js"></script>
+    <!-- correct = <i class="fa-solid fa-circle-check"></i>
+    incorrect = <i class="fa-solid fa-circle-xmark"></i>
+    question = <i class="fa-solid fa-circle-question"></i>
+    lose = <i class="fa-solid fa-face-frown"></i>
+    cheat = <i class="fa-solid fa-gears"></i> -->
+</body>
+</html>
